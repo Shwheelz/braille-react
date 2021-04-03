@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+
+.navbar {
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 5%;
+
+  .navbar-title {
+      font-size: 24px;
+      font-weight: 500;
+      margin-right: 5%;
+  }
+  
+  .navbar-item {
+      font-size: 24px;
+      font-weight: 300;
+      margin-right: 5%;
+      display: inline-block;
+      a:link, a:visited {
+          color: black;
+          text-decoration: none;
+      }
+      :hover {
+          text-decoration: underline;  
+          cursor: pointer;      
+      }
+  }
+}
